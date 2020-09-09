@@ -15,8 +15,7 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  remove_from_end = ["boolean", "string", "arrays!"]
-  remove_from_end.pop
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
